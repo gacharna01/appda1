@@ -31,7 +31,7 @@ export default function App() {
   const renderListItem = ({ item }) => (
     <View style={styles.itemList}>
       <Text>{item.value}</Text>
-      <Button title="x" onPress={() => onSelectItemHandler(item.id)} />
+      <Button title="x" color="#6a994e" onPress={() => onSelectItemHandler(item.id)} />
     </View>
   )
 
